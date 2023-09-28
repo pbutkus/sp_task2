@@ -6,7 +6,7 @@ import java.util.List;
 
 public class BinarySearch {
 
-    private List<Book> books;
+    private final List<Book> books;
 
     public BinarySearch(List<Book> books) {
         this.books = books;
