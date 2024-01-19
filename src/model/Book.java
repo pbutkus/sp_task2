@@ -56,15 +56,13 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "title='" + title + '\'' +
+        return "title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 ", language='" + language + '\'' +
                 ", pages=" + pages +
                 ", year=" + year +
                 ", country='" + country + '\'' +
                 ", imageLink='" + imageLink + '\'' +
-                ", link='" + link + '\'' +
-                '}';
+                ", link='" + link;
     }
 }
